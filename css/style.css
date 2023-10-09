@@ -176,8 +176,14 @@ img {
     display: inline-flex;
     column-gap: 24px;
 }
-.feature-list-item {
-    
+.feature-image-container {
+    background-color: var(--color-cloud);
+    border-radius: 4px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.feature-list-img {
+    margin: 0 auto;
 }
 .feature-item-title{
     font-size: 20px;
@@ -185,7 +191,8 @@ img {
     line-height: 24px;
     letter-spacing: 0.4px;
     color:var(--color-navyblue);
-    margin-bottom: 8px;
+    margin-top: 13px;
+    margin-bottom: 13px;
 }
 .feature-item-description {
     font-size: 16px;
