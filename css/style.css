@@ -319,87 +319,6 @@ img {
     fill: var(--color-cloud);
 }
 
-/* -/////////// PORTFOLIO PAGE ////////////- */
-/* ==filter-list== */
-.portfolio {
-    padding-top: 96px;
-    padding-bottom: 120px;
-    /* display: flex;
-    justify-content: space-between; */
-}
-.filter-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: flex-start;
-    column-gap: 24px;
-    margin-bottom: 72px;
-}
-.filter-item {
-    background-color: var(--color-cloud);
-    border: 1px solid var(--color-cornflower);
-    color: var(--color-iris);
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 24px;
-    padding-right: 24px;
-    border-radius: 4px;
-    border: 1px var(--color-ocean);
-    font-size: 16px;
-    font-weight: 500;
-}
-.filter-item:hover {
-    background-color:var(--color-ocean);
-    color: var(--color-white);
-    cursor:grab;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-}
-.filter-item.active {
-    background-color: var(--color-ocean);
-    color: var(--color-white);
-}
-
-
-
-/* == port-list == */
-.port-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: flex-start;
-    gap: 48px 24px;
-    flex-wrap: wrap;
-}
-.port-list-item {
-    border: 1px solid var(--color-cornflower);
-}
-
-.port-list-item:hover {
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-.port-description {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-right: 16px;
-    padding-left: 16px;
-    background-color: var(--color-white);
-    
-}
-.port-description-title {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.4px; 
-    color: var(--color-navyblue);
-    margin-bottom: 8px;
-}
-.port-description-subtitle {
-    color: var(--color-slate);
-    line-height: 24px;
-}
-
 
  /* ================Customer=============== */
 .customer {
@@ -447,6 +366,96 @@ img {
 .customer-link:hover {
     border: 1px solid var(--color-ocean);
 }
+
+
+
+
+
+
+/* -/////////// PORTFOLIO PAGE ////////////- */
+/* ==filter-list== */
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.filter-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    column-gap: 24px;
+    margin-bottom: 72px;
+}
+.filter-item {
+    background-color: var(--color-cloud);
+    border: 1px solid var(--color-cornflower);
+    color: var(--color-iris);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 4px;
+    border: 1px var(--color-ocean);
+    font-size: 16px;
+    font-weight: 500;
+}
+.filter-item:hover {
+    background-color:var(--color-ocean);
+    color: var(--color-white);
+    cursor:grab;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+.filter-item.active {
+    background-color: var(--color-ocean);
+    color: var(--color-white);
+}
+
+
+/* == port-list == */
+.port-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    gap: 48px 24px;
+    flex-wrap: wrap;
+}
+.port-list-item {
+    border: 1px solid var(--color-cornflower);
+}
+
+.port-list-item:hover {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.port-description {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 16px;
+    padding-left: 16px;
+    background-color: var(--color-white);
+    
+}
+.port-description-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px; 
+    color: var(--color-navyblue);
+    margin-bottom: 8px;
+}
+.port-description-subtitle {
+    color: var(--color-slate);
+    line-height: 24px;
+}
+
+
+
+
+
 /* ================Footer=============== */
 .footer {
     background-color: var(--color-navyblue);
