@@ -124,6 +124,7 @@ img {
 }
 
 
+
 /* -/////////// INDEX PAGE ////////////- */
 /* -- Main-banner Section -- */
 .hero {
@@ -352,6 +353,7 @@ img {
     background-color:var(--color-ocean);
     color: var(--color-white);
     cursor:grab;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .filter-item.active {
     background-color: var(--color-ocean);
