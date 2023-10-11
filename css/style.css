@@ -58,6 +58,7 @@ img {
     border-bottom: 1px solid var(--color-cornflower);
     padding-top: 24px;
     padding-bottom: 24px;
+
  }
 .header-container {
     display: flex;
@@ -129,7 +130,13 @@ img {
     background-color: var(--color-navyblue);
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/hero-image.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     
 }
+
 .hero-title {
     font-size: 56px;
     font-weight: 700;
@@ -157,7 +164,9 @@ img {
     display: block;
     cursor:grab;
 }
-
+.hero button:hover {
+    background-color: var(--color-ocean);
+}
 
 /* -- features Section -- */
 .features {
@@ -295,15 +304,17 @@ img {
     align-items: center;
     width: 40px;
     height: 40px;
+    background-color: var(--color-iris);
+    border-radius: 50%;
 }
 .team-link svg {
    width: 16px;
    height: 16px;
-   fill: var(--color-light-slate);
+   fill: var(--color-cloud);
 }
 .team-link:hover  {
     border-radius: 22px;
-    background-color: var(--color-iris);
+    background-color: var(--color-ocean);
 }
 .team-link:hover svg {
     fill: var(--color-cloud);
@@ -426,8 +437,10 @@ img {
 }
 
 .customer-link:hover svg {
-    fill: var(--color-iris)
-
+    fill: var(--color-ocean);
+}
+.customer-link:hover {
+    border: 1px solid var(--color-ocean);
 }
 /* ================Footer=============== */
 .footer {
@@ -496,16 +509,16 @@ img {
     justify-content: center;
     width: 40px;
     height: 40px;
+    background-color: var(--color-iris);
+    border-radius: 50%;  
 }
 .footer-socmed-link svg {
     width: 24px;
     height: 24px;
     fill: var(--color-cloud);
-
 }
 .footer-socmed-link:hover  {
-    background-color: var(--color-iris);
-    border-radius: 22px;   
+    background-color: var(--color-ocean);
 }
 .footer-socmed-link:hover svg {
     fill: var(--color-cloud);
