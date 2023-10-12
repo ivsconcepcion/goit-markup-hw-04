@@ -7,6 +7,7 @@
     --color-cloud: #F4F4FD;
     --color-cornflower: #E7E9FC;
     --color-ocean: #404BBF;
+    --color-green: #31D0AA;
  }
 * {
     padding: 0;
@@ -532,7 +533,7 @@ img {
     fill: var(--color-cloud);
 }
 .footer-socmed-link:hover  {
-    background-color: var(--color-ocean);
+    background-color: var(--color-green);
 }
 .footer-socmed-link:hover svg {
     fill: var(--color-cloud);
